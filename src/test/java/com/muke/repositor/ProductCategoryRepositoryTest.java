@@ -26,6 +26,7 @@ public class ProductCategoryRepositoryTest {
     @Test
     public void  findOneTest(){
         ProductCategory productCategory=repository.findOne(1);
+
         System.out.println(productCategory.toString());
     }
 
