@@ -4,6 +4,7 @@ import com.muke.dataobject.OrderDetail;
 import com.muke.dataobject.OrderMaster;
 import com.muke.dto.OrderDTO;
 import com.muke.enmu.OrderStatusEnum;
+import com.muke.enmu.PayStatusEnum;
 import com.muke.repositor.OrderMasterRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.weaver.ast.Or;
@@ -85,9 +86,17 @@ public class OrderServiceImplTest {
 
     @Test
     public void finish() {
+        OrderDTO orderDTO=orderService.findOne(ORDER_ID);
+        OrderDTO result=orderService.finish(orderDTO);
+        Assert.assertEquals(OrderStatusEnum.FINISHED.getCode(),result.getOrderStatus());
+
     }
 
     @Test
     public void paid() {
+        OrderDTO orderDTO=orderService.findOne(ORDER_ID);
+        OrderDTO result=orderService.paid(orderDTO);
+        Assert.assertEquals(PayStatusEnum.SUCCESS.getCode(),result.getPayStatus());
+
     }
 }

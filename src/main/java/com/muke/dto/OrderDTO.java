@@ -2,14 +2,17 @@ package com.muke.dto;
 
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import com.muke.dataobject.OrderDetail;
 import com.muke.enmu.OrderStatusEnum;
 import com.muke.enmu.PayStatusEnum;
+import com.muke.util.serializer.Date2LongSerializer;
 import lombok.Data;
 import org.hibernate.annotations.DynamicUpdate;
 
 import java.math.BigDecimal;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -44,12 +47,14 @@ public class OrderDTO {
     private Integer payStatus;
 
     /** 创建时间. */
- private Date createTime;
+    @JsonSerialize(using = Date2LongSerializer.class)
+    private Date createTime;
 
     /** 更新时间. */
-  private Date updateTime;
+    @JsonSerialize(using = Date2LongSerializer.class)
+    private Date updateTime;
 
-    List<OrderDetail> orderDetailList;
+    List<OrderDetail> orderDetailList=new ArrayList<>();
 
 
 }
