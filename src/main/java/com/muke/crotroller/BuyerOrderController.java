@@ -6,6 +6,7 @@ import com.muke.dto.OrderDTO;
 import com.muke.enmu.ResultEnum;
 import com.muke.exception.SellException;
 import com.muke.form.OrderForm;
+import com.muke.service.BuyerService;
 import com.muke.service.OrderService;
 import com.muke.util.ResultVOUtil;
 import lombok.extern.slf4j.Slf4j;
@@ -19,18 +20,21 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
-import javax.xml.transform.Result;
+
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
+@Slf4j
 @RestController
 @RequestMapping("/buyer/order")
-@Slf4j
 public class BuyerOrderController {
 
     @Autowired
     private OrderService orderService;
+
+
+    @Autowired
+    private BuyerService buyerService;
     //创建订单
     @PostMapping("/create")
     public ResultVO<Map<String,String>>create(@Valid OrderForm orderForm,
@@ -77,7 +81,8 @@ public class BuyerOrderController {
                                       @RequestParam("orderId")String orderId){
         //TODI 不安全的
 
-        return ResultVOUtil.success(orderService.findOne(orderId));
+
+        return ResultVOUtil.success(buyerService.findOrderOne(openid,orderId));
 
     }
 
@@ -86,9 +91,9 @@ public class BuyerOrderController {
     public  ResultVO<OrderDTO> cancel(@RequestParam("openid")String openid,
                                       @RequestParam("orderId")String orderId){
         //TODI 不安全的
-        OrderDTO orderDTO=orderService.findOne(orderId);
+        OrderDTO orderDTO=buyerService.cancelOrder(openid,orderId);
 
-        return ResultVOUtil.success(orderService.cancel(orderDTO));
+        return ResultVOUtil.success();
 
     }
 }

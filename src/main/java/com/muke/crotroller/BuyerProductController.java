@@ -64,7 +64,6 @@ public class BuyerProductController {
             productVoList.add(productVo);
 
         }
-        ResultVO resultVO=new ResultVO();
 
 
         return ResultVOUtil.success(productVoList);

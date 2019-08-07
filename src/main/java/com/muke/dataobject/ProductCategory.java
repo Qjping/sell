@@ -12,11 +12,6 @@ import java.util.Date;
 @Data
 public class ProductCategory {
 
-
-
-
-
-
     /** 类目id. */
     @Id
     @GeneratedValue
@@ -31,9 +26,9 @@ public class ProductCategory {
     private Date createTime;
 
     private Date updateTime;
-//
-//    public ProductCategory() {
-//    }
+
+    public ProductCategory() {
+    }
 
     public ProductCategory(String categoryName, Integer categoryType) {
         this.categoryName = categoryName;
