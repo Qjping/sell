@@ -14,7 +14,7 @@ HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
 HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
 Initialized JPA EntityManagerFactory for persistence unit 'default'
 Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@65987993: startup date [Mon Jul 22 21:52:02 CST 2019]; root of context hierarchy
-Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.muke.VO.ResultVO com.muke.crotroller.BuyerProductController.list()
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public ResultVO BuyerProductController.list()
 Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
 Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
 Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
@@ -40,7 +40,7 @@ HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
 HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
 Initialized JPA EntityManagerFactory for persistence unit 'default'
 Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@65987993: startup date [Mon Jul 22 21:53:08 CST 2019]; root of context hierarchy
-Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.muke.VO.ResultVO com.muke.crotroller.BuyerProductController.list()
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public ResultVO BuyerProductController.list()
 Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
 Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
 Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
@@ -65,7 +65,7 @@ HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
 HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
 Initialized JPA EntityManagerFactory for persistence unit 'default'
 Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@65987993: startup date [Mon Jul 22 21:53:44 CST 2019]; root of context hierarchy
-Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.muke.VO.ResultVO com.muke.crotroller.BuyerProductController.list()
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public ResultVO BuyerProductController.list()
 Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
 Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
 Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
@@ -91,7 +91,7 @@ HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
 HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
 Initialized JPA EntityManagerFactory for persistence unit 'default'
 Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@65987993: startup date [Mon Jul 22 21:54:19 CST 2019]; root of context hierarchy
-Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.muke.VO.ResultVO com.muke.crotroller.BuyerProductController.list()
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public ResultVO BuyerProductController.list()
 Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
 Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
 Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
@@ -117,7 +117,7 @@ HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
 HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
 Initialized JPA EntityManagerFactory for persistence unit 'default'
 Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@4e517165: startup date [Mon Jul 22 22:00:49 CST 2019]; root of context hierarchy
-Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.muke.VO.ResultVO com.muke.crotroller.BuyerProductController.list()
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public ResultVO BuyerProductController.list()
 Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
 Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
 Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
@@ -140,7 +140,7 @@ HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
 HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
 Initialized JPA EntityManagerFactory for persistence unit 'default'
 Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@44e3760b: startup date [Mon Jul 22 22:01:58 CST 2019]; root of context hierarchy
-Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.muke.VO.ResultVO com.muke.crotroller.BuyerProductController.list()
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public ResultVO BuyerProductController.list()
 Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
 Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
 Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
@@ -163,7 +163,7 @@ HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
 HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
 Initialized JPA EntityManagerFactory for persistence unit 'default'
 Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@44e3760b: startup date [Mon Jul 22 22:02:29 CST 2019]; root of context hierarchy
-Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.muke.VO.ResultVO com.muke.crotroller.BuyerProductController.list()
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public ResultVO BuyerProductController.list()
 Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
 Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
 Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
@@ -188,7 +188,7 @@ HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
 HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
 Initialized JPA EntityManagerFactory for persistence unit 'default'
 Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@f6c03cb: startup date [Mon Jul 22 22:26:00 CST 2019]; root of context hierarchy
-Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.muke.VO.ResultVO com.muke.crotroller.BuyerProductController.list()
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public ResultVO BuyerProductController.list()
 Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
 Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
 Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]

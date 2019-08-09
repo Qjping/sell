@@ -412,7 +412,7 @@ Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo can
 	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:88)
 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:254)
 	... 56 common frames omitted
-Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@40f08448] to prepare test instance [com.muke.repositor.OrderMasterRepositoryTest@3240b2a4]
+Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@40f08448] to prepare test instance [OrderMasterRepositoryTest@3240b2a4]
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
 	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
@@ -899,7 +899,7 @@ Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo can
 	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:88)
 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:254)
 	... 56 common frames omitted
-Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@40f08448] to prepare test instance [com.muke.repositor.OrderMasterRepositoryTest@66b59b7d]
+Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@40f08448] to prepare test instance [OrderMasterRepositoryTest@66b59b7d]
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
 	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)
@@ -1386,7 +1386,7 @@ Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo can
 	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:88)
 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:254)
 	... 56 common frames omitted
-Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@40f08448] to prepare test instance [com.muke.repositor.ProductInfoRepositoryTest@6e4c0d8c]
+Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@40f08448] to prepare test instance [ProductInfoRepositoryTest@6e4c0d8c]
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
 	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83)

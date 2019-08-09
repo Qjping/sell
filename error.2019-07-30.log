@@ -1,12 +1,12 @@
 【取消订单状态不正确】，orderID=1563803667654722032，orderStatus=20
-Servlet.service() for servlet [dispatcherServlet] in context with path [/sell] threw exception [Request processing failed; nested exception is com.muke.exception.SellException: 订单不正确] with root cause
-com.muke.exception.SellException: 订单不正确
-	at com.muke.service.impl.OrderServiceImpl.cancel(OrderServiceImpl.java:129)
-	at com.muke.service.impl.OrderServiceImpl$$FastClassBySpringCGLIB$$8a3e859d.invoke(<generated>)
+Servlet.service() for servlet [dispatcherServlet] in context with path [/sell] threw exception [Request processing failed; nested exception is SellException: 订单不正确] with root cause
+SellException: 订单不正确
+	at OrderServiceImpl.cancel(OrderServiceImpl.java:129)
+	at OrderServiceImpl$$FastClassBySpringCGLIB$$8a3e859d.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:669)
-	at com.muke.service.impl.OrderServiceImpl$$EnhancerBySpringCGLIB$$6257fa12.cancel(<generated>)
-	at com.muke.crotroller.BuyerOrderController.cancel(BuyerOrderController.java:91)
+	at OrderServiceImpl$$EnhancerBySpringCGLIB$$6257fa12.cancel(<generated>)
+	at BuyerOrderController.cancel(BuyerOrderController.java:91)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

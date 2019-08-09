@@ -13,7 +13,7 @@ org.apache.catalina.LifecycleException: Failed to start component [Connector[HTT
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
-	at com.muke.SellApplication.main(SellApplication.java:10)
+	at SellApplication.main(SellApplication.java:10)
 Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
 	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1020)
 	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
@@ -58,7 +58,7 @@ org.apache.catalina.LifecycleException: Failed to start component [Connector[HTT
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
-	at com.muke.SellApplication.main(SellApplication.java:10)
+	at SellApplication.main(SellApplication.java:10)
 Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
 	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1020)
 	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)

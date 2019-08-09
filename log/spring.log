@@ -1,8 +1,8 @@
-2019-07-06 16:14:26.648  INFO 11292 --- [main] com.muke.spring.sell.LogTest             : Starting LogTest on AFOIG-801172222 with PID 11292 (started by Administrator in C:\Users\Administrator\Documents\sell)
-2019-07-06 16:14:26.651  INFO 11292 --- [main] com.muke.spring.sell.LogTest             : No active profile set, falling back to default profiles: default
+2019-07-06 16:14:26.648  INFO 11292 --- [main] LogTest             : Starting LogTest on AFOIG-801172222 with PID 11292 (started by Administrator in C:\Users\Administrator\Documents\sell)
+2019-07-06 16:14:26.651  INFO 11292 --- [main] LogTest             : No active profile set, falling back to default profiles: default
 2019-07-06 16:14:26.710  INFO 11292 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@223aa2f7: startup date [Sat Jul 06 16:14:26 CST 2019]; root of context hierarchy
-2019-07-06 16:14:28.046  INFO 11292 --- [main] com.muke.spring.sell.LogTest             : Started LogTest in 2.466 seconds (JVM running for 4.04)
-2019-07-06 16:14:28.178  INFO 11292 --- [main] com.muke.spring.sell.LogTest             : name:{ },pwd:{ }
-2019-07-06 16:14:28.185  INFO 11292 --- [main] com.muke.spring.sell.LogTest             : info
-2019-07-06 16:14:28.185 ERROR 11292 --- [main] com.muke.spring.sell.LogTest             : error
+2019-07-06 16:14:28.046  INFO 11292 --- [main] LogTest             : Started LogTest in 2.466 seconds (JVM running for 4.04)
+2019-07-06 16:14:28.178  INFO 11292 --- [main] LogTest             : name:{ },pwd:{ }
+2019-07-06 16:14:28.185  INFO 11292 --- [main] LogTest             : info
+2019-07-06 16:14:28.185 ERROR 11292 --- [main] LogTest             : error
 2019-07-06 16:14:28.196  INFO 11292 --- [Thread-2] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@223aa2f7: startup date [Sat Jul 06 16:14:26 CST 2019]; root of context hierarchy
