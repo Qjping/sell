@@ -42,7 +42,7 @@ public class WechartController {
           wxMpService.oauth2getAccessToken(code);
         } catch (WxErrorException e) {
             log.error("[微信网页授权]{}",e);
-            throw  new SellException()
+//            throw  new SellException();
         }
     }
 

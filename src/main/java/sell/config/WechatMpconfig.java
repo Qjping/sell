@@ -9,7 +9,8 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
 
 @Component
-public class WechatMpconfig {
+public class
+WechatMpconfig {
     @Autowired
     private WechatAccountConfig wechatAccountConfig;
     @Bean
