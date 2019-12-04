@@ -1,0 +1,498 @@
+Starting SellApplication on AFOIG-801172222 with PID 39428 (C:\Users\Administrator\Documents\sell\target\classes started by Administrator in C:\Users\Administrator\Documents\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@765d7657: startup date [Thu Nov 21 22:10:12 CST 2019]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Tomcat initialized with port(s): 8080 (http)
+Starting service Tomcat
+Starting Servlet Engine: Apache Tomcat/8.5.14
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 3448 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Unable to determine jdbc url from datasource
+org.springframework.jdbc.support.MetaDataAccessException: Could not get Connection for extracting meta data; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:339)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:366)
+	at org.springframework.boot.autoconfigure.orm.jpa.DatabaseLookup.getDatabase(DatabaseLookup.java:72)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaProperties.determineDatabase(JpaProperties.java:139)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration.jpaVendorAdapter(JpaBaseConfiguration.java:105)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration$$EnhancerBySpringCGLIB$$18b1d8fc.CGLIB$jpaVendorAdapter$4(<generated>)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration$$EnhancerBySpringCGLIB$$18b1d8fc$$FastClassBySpringCGLIB$$21313cc5.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:358)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration$$EnhancerBySpringCGLIB$$18b1d8fc.jpaVendorAdapter(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:467)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:467)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1081)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:856)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151)
+	at sell.SellApplication.main(SellApplication.java:10)
+Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:326)
+	... 61 common frames omitted
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2203)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2236)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2035)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:790)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:400)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:310)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:203)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:735)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:667)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:482)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:154)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.pCreatePool(DataSourceProxy.java:118)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.createPool(DataSourceProxy.java:107)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:131)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:111)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:77)
+	... 62 common frames omitted
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300)
+	... 85 common frames omitted
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000342: Could not obtain connection to query metadata : Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+Stopping service Tomcat
+
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+Starting SellApplication on AFOIG-801172222 with PID 16332 (C:\Users\Administrator\Documents\sell\target\classes started by Administrator in C:\Users\Administrator\Documents\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@765d7657: startup date [Thu Nov 21 22:12:26 CST 2019]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Tomcat initialized with port(s): 8080 (http)
+Starting service Tomcat
+Starting Servlet Engine: Apache Tomcat/8.5.14
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2761 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'wechartController': Unsatisfied dependency expressed through field 'wxMpService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'wxMpService' defined in class path resource [sell/config/WechatMpconfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [me.chanjar.weixin.mp.api.WxMpService]: Factory method 'wxMpService' threw exception; nested exception is java.lang.StackOverflowError
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Stopping service Tomcat
+
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+Starting SellApplication on AFOIG-801172222 with PID 57536 (C:\Users\Administrator\Documents\sell\target\classes started by Administrator in C:\Users\Administrator\Documents\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@765d7657: startup date [Thu Nov 21 22:34:52 CST 2019]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Tomcat initialized with port(s): 8080 (http)
+Starting service Tomcat
+Starting Servlet Engine: Apache Tomcat/8.5.14
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 5501 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'wechartController': Unsatisfied dependency expressed through field 'wxMpService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'wxMpService' defined in class path resource [sell/config/WechatMpconfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [me.chanjar.weixin.mp.api.WxMpService]: Factory method 'wxMpService' threw exception; nested exception is java.lang.StackOverflowError
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Stopping service Tomcat
+
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+Starting SellApplication on AFOIG-801172222 with PID 58632 (C:\Users\Administrator\Documents\sell\target\classes started by Administrator in C:\Users\Administrator\Documents\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@765d7657: startup date [Thu Nov 21 22:36:51 CST 2019]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Tomcat initialized with port(s): 8080 (http)
+Starting service Tomcat
+Starting Servlet Engine: Apache Tomcat/8.5.14
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2549 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'wxMpService' defined in class path resource [sell/config/WechatMpconfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [me.chanjar.weixin.mp.api.WxMpService]: Factory method 'wxMpService' threw exception; nested exception is java.lang.StackOverflowError
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Stopping service Tomcat
+
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+Starting SellApplication on AFOIG-801172222 with PID 60684 (C:\Users\Administrator\Documents\sell\target\classes started by Administrator in C:\Users\Administrator\Documents\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@765d7657: startup date [Thu Nov 21 22:39:18 CST 2019]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Tomcat initialized with port(s): 8080 (http)
+Starting service Tomcat
+Starting Servlet Engine: Apache Tomcat/8.5.14
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 4200 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'wxMpService' defined in class path resource [sell/config/WechatMpconfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [me.chanjar.weixin.mp.api.WxMpService]: Factory method 'wxMpService' threw exception; nested exception is java.lang.StackOverflowError
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Stopping service Tomcat
+
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+Starting SellApplication on AFOIG-801172222 with PID 62836 (C:\Users\Administrator\Documents\sell\target\classes started by Administrator in C:\Users\Administrator\Documents\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@765d7657: startup date [Thu Nov 21 22:43:33 CST 2019]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Tomcat initialized with port(s): 8080 (http)
+Starting service Tomcat
+Starting Servlet Engine: Apache Tomcat/8.5.14
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 4036 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'wxMpService' defined in class path resource [sell/config/WechatMpconfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [me.chanjar.weixin.mp.api.WxMpService]: Factory method 'wxMpService' threw exception; nested exception is java.lang.StackOverflowError
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Stopping service Tomcat
+
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+Starting SellApplication on AFOIG-801172222 with PID 82588 (C:\Users\Administrator\Documents\sell\target\classes started by Administrator in C:\Users\Administrator\Documents\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@765d7657: startup date [Thu Nov 21 23:04:59 CST 2019]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Tomcat initialized with port(s): 8080 (http)
+Starting service Tomcat
+Starting Servlet Engine: Apache Tomcat/8.5.14
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 4320 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'wxMpService' defined in class path resource [sell/config/WechatMpconfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [me.chanjar.weixin.mp.api.WxMpService]: Factory method 'wxMpService' threw exception; nested exception is java.lang.StackOverflowError
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Stopping service Tomcat
+
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+Starting SellApplication on AFOIG-801172222 with PID 83992 (C:\Users\Administrator\Documents\sell\target\classes started by Administrator in C:\Users\Administrator\Documents\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@765d7657: startup date [Thu Nov 21 23:09:28 CST 2019]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Tomcat initialized with port(s): 8080 (http)
+Starting service Tomcat
+Starting Servlet Engine: Apache Tomcat/8.5.14
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 3576 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'wxMpService' defined in class path resource [sell/config/WechatMpconfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [me.chanjar.weixin.mp.api.WxMpService]: Factory method 'wxMpService' threw exception; nested exception is java.lang.StackOverflowError
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Stopping service Tomcat
+
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+Starting SellApplication on AFOIG-801172222 with PID 85176 (C:\Users\Administrator\Documents\sell\target\classes started by Administrator in C:\Users\Administrator\Documents\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@765d7657: startup date [Thu Nov 21 23:11:03 CST 2019]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Tomcat initialized with port(s): 8080 (http)
+Starting service Tomcat
+Starting Servlet Engine: Apache Tomcat/8.5.14
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 3285 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@765d7657: startup date [Thu Nov 21 23:11:03 CST 2019]; root of context hierarchy
+Mapped "{[/buyer/order/create],methods=[POST]}" onto public sell.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> sell.crotroller.BuyerOrderController.create(sell.form.OrderForm,org.springframework.validation.BindingResult)
+Mapped "{[/buyer/order/list],methods=[GET]}" onto public sell.VO.ResultVO<java.util.List<sell.dto.OrderDTO>> sell.crotroller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+Mapped "{[/buyer/order/detail],methods=[GET]}" onto public sell.VO.ResultVO<sell.dto.OrderDTO> sell.crotroller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+Mapped "{[/buyer/order/cancel],methods=[GET]}" onto public sell.VO.ResultVO<sell.dto.OrderDTO> sell.crotroller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public sell.VO.ResultVO sell.crotroller.BuyerProductController.list()
+Mapped "{[/weixin/auth],methods=[GET]}" onto public void sell.crotroller.WexinController.auth(java.lang.String)
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Registering beans for JMX exposure on startup
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http)
+Started SellApplication in 9.073 seconds (JVM running for 12.559)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 90 ms
+HHH000397: Using ASTQueryTranslatorFactory
+Starting SellApplication on AFOIG-801172222 with PID 92872 (C:\Users\Administrator\Documents\sell\target\classes started by Administrator in C:\Users\Administrator\Documents\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@765d7657: startup date [Thu Nov 21 23:20:38 CST 2019]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Tomcat initialized with port(s): 8080 (http)
+Starting service Tomcat
+Starting Servlet Engine: Apache Tomcat/8.5.14
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2473 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@765d7657: startup date [Thu Nov 21 23:20:38 CST 2019]; root of context hierarchy
+Mapped "{[/buyer/order/create],methods=[POST]}" onto public sell.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> sell.crotroller.BuyerOrderController.create(sell.form.OrderForm,org.springframework.validation.BindingResult)
+Mapped "{[/buyer/order/list],methods=[GET]}" onto public sell.VO.ResultVO<java.util.List<sell.dto.OrderDTO>> sell.crotroller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+Mapped "{[/buyer/order/cancel],methods=[GET]}" onto public sell.VO.ResultVO<sell.dto.OrderDTO> sell.crotroller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+Mapped "{[/buyer/order/detail],methods=[GET]}" onto public sell.VO.ResultVO<sell.dto.OrderDTO> sell.crotroller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public sell.VO.ResultVO sell.crotroller.BuyerProductController.list()
+Mapped "{[/weixin/auth],methods=[GET]}" onto public void sell.crotroller.WexinController.auth(java.lang.String)
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Registering beans for JMX exposure on startup
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http)
+Started SellApplication in 7.04 seconds (JVM running for 8.963)
+Starting SellApplication on AFOIG-801172222 with PID 94228 (C:\Users\Administrator\Documents\sell\target\classes started by Administrator in C:\Users\Administrator\Documents\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@765d7657: startup date [Thu Nov 21 23:21:43 CST 2019]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Tomcat initialized with port(s): 8080 (http)
+Starting service Tomcat
+Starting Servlet Engine: Apache Tomcat/8.5.14
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2656 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@765d7657: startup date [Thu Nov 21 23:21:43 CST 2019]; root of context hierarchy
+Mapped "{[/buyer/order/create],methods=[POST]}" onto public sell.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> sell.crotroller.BuyerOrderController.create(sell.form.OrderForm,org.springframework.validation.BindingResult)
+Mapped "{[/buyer/order/list],methods=[GET]}" onto public sell.VO.ResultVO<java.util.List<sell.dto.OrderDTO>> sell.crotroller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+Mapped "{[/buyer/order/detail],methods=[GET]}" onto public sell.VO.ResultVO<sell.dto.OrderDTO> sell.crotroller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+Mapped "{[/buyer/order/cancel],methods=[GET]}" onto public sell.VO.ResultVO<sell.dto.OrderDTO> sell.crotroller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public sell.VO.ResultVO sell.crotroller.BuyerProductController.list()
+Mapped "{[/weixin/auth],methods=[GET]}" onto public void sell.crotroller.WexinController.auth(java.lang.String)
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Registering beans for JMX exposure on startup
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http)
+Started SellApplication in 7.23 seconds (JVM running for 9.12)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 29 ms
+HHH000397: Using ASTQueryTranslatorFactory
+进入auth方法
+code=1
+{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: llkfy24ce-TbOkna ]"}
+进入auth方法
+code=1,061kQPlj2WVApE0FWSnj2jGIlj2kQPl3
+{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: QlkfgawgE-9BV4hA ]"}

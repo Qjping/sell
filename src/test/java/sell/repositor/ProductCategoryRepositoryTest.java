@@ -30,10 +30,10 @@ public class ProductCategoryRepositoryTest {
     @Test
     @Transactional
     public void saveTest(){
-//        ProductCategory productCategory=new ProductCategory();
-//        ProductCategory productCategory=new ProductCategory("邱最爱",3);
-//        ProductCategory productCategory1=repository.save(productCategory);
-//        Assert.assertNotEquals("1",productCategory);
+        ProductCategory productCategory=new ProductCategory();
+        ProductCategory productCategory2=new ProductCategory("邱最爱",3);
+        ProductCategory productCategory1=repository.save(productCategory);
+        Assert.assertNotEquals("1",productCategory);
         List<Integer>arr= Arrays.asList(1,2,3);
         List<ProductCategory>result=repository.findByCategoryTypeIn(arr);
         System.out.println(result.toString());

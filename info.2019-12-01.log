@@ -1,0 +1,1380 @@
+进入auth方法
+code=1,081rNsi30UAQSJ1eIdk30alxi30rNsio
+{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: ZEaFO6yFe-3r ]"}
+Starting SellApplication on AFOIG-801172222 with PID 102368 (C:\Users\Administrator\Documents\sell\target\classes started by Administrator in C:\Users\Administrator\Documents\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@30c15d8b: startup date [Sun Dec 01 11:18:07 CST 2019]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Tomcat initialized with port(s): 8080 (http)
+Starting service Tomcat
+Starting Servlet Engine: Apache Tomcat/8.5.14
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 4645 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'wechartController': Unsatisfied dependency expressed through field 'wxMpService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'wxMpService' defined in class path resource [sell/config/WechatMpconfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [me.chanjar.weixin.mp.api.WxMpService]: Factory method 'wxMpService' threw exception; nested exception is java.lang.StackOverflowError
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Stopping service Tomcat
+
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+Starting SellApplication on AFOIG-801172222 with PID 106212 (C:\Users\Administrator\Documents\sell\target\classes started by Administrator in C:\Users\Administrator\Documents\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@30c15d8b: startup date [Sun Dec 01 11:23:59 CST 2019]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Tomcat initialized with port(s): 8080 (http)
+Starting service Tomcat
+Starting Servlet Engine: Apache Tomcat/8.5.14
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 4661 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'wechartController': Unsatisfied dependency expressed through field 'wxMpService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'wxMpService' defined in class path resource [sell/config/WechatMpconfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [me.chanjar.weixin.mp.api.WxMpService]: Factory method 'wxMpService' threw exception; nested exception is java.lang.StackOverflowError
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Stopping service Tomcat
+
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+Starting SellApplication on AFOIG-801172222 with PID 108980 (C:\Users\Administrator\Documents\sell\target\classes started by Administrator in C:\Users\Administrator\Documents\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@30c15d8b: startup date [Sun Dec 01 11:27:10 CST 2019]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Tomcat initialized with port(s): 8080 (http)
+Starting service Tomcat
+Starting Servlet Engine: Apache Tomcat/8.5.14
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 7926 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'wechartController': Unsatisfied dependency expressed through field 'wxMpService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'wxMpService' defined in class path resource [sell/config/WechatMpconfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [me.chanjar.weixin.mp.api.WxMpService]: Factory method 'wxMpService' threw exception; nested exception is java.lang.StackOverflowError
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Stopping service Tomcat
+
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+Starting SellApplication on AFOIG-801172222 with PID 115636 (C:\Users\Administrator\Documents\sell\target\classes started by Administrator in C:\Users\Administrator\Documents\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@30c15d8b: startup date [Sun Dec 01 11:40:29 CST 2019]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Tomcat initialized with port(s): 8080 (http)
+Starting service Tomcat
+Starting Servlet Engine: Apache Tomcat/8.5.14
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 5118 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@30c15d8b: startup date [Sun Dec 01 11:40:29 CST 2019]; root of context hierarchy
+Mapped "{[/buyer/order/create],methods=[POST]}" onto public sell.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> sell.crotroller.BuyerOrderController.create(sell.form.OrderForm,org.springframework.validation.BindingResult)
+Mapped "{[/buyer/order/list],methods=[GET]}" onto public sell.VO.ResultVO<java.util.List<sell.dto.OrderDTO>> sell.crotroller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+Mapped "{[/buyer/order/detail],methods=[GET]}" onto public sell.VO.ResultVO<sell.dto.OrderDTO> sell.crotroller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+Mapped "{[/buyer/order/cancel],methods=[GET]}" onto public sell.VO.ResultVO<sell.dto.OrderDTO> sell.crotroller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public sell.VO.ResultVO sell.crotroller.BuyerProductController.list()
+Mapped "{[/wechat/userInfo],methods=[GET]}" onto public void sell.crotroller.WechartController.userInfo(java.lang.String,java.lang.String)
+Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String sell.crotroller.WechartController.authorize(java.lang.String)
+Mapped "{[/weixin/auth],methods=[GET]}" onto public void sell.crotroller.WexinController.auth(java.lang.String)
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Registering beans for JMX exposure on startup
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http)
+Started SellApplication in 16.19 seconds (JVM running for 19.391)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 30 ms
+Starting SellApplication on AFOIG-801172222 with PID 118364 (C:\Users\Administrator\Documents\sell\target\classes started by Administrator in C:\Users\Administrator\Documents\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@23aa363a: startup date [Sun Dec 01 11:44:15 CST 2019]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Tomcat initialized with port(s): 8080 (http)
+Starting service Tomcat
+Starting Servlet Engine: Apache Tomcat/8.5.14
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 3271 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@23aa363a: startup date [Sun Dec 01 11:44:15 CST 2019]; root of context hierarchy
+Mapped "{[/buyer/order/create],methods=[POST]}" onto public sell.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> sell.crotroller.BuyerOrderController.create(sell.form.OrderForm,org.springframework.validation.BindingResult)
+Mapped "{[/buyer/order/list],methods=[GET]}" onto public sell.VO.ResultVO<java.util.List<sell.dto.OrderDTO>> sell.crotroller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+Mapped "{[/buyer/order/cancel],methods=[GET]}" onto public sell.VO.ResultVO<sell.dto.OrderDTO> sell.crotroller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+Mapped "{[/buyer/order/detail],methods=[GET]}" onto public sell.VO.ResultVO<sell.dto.OrderDTO> sell.crotroller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public sell.VO.ResultVO sell.crotroller.BuyerProductController.list()
+Mapped "{[/wechat/userInfo],methods=[GET]}" onto public void sell.crotroller.WechartController.userInfo(java.lang.String,java.lang.String)
+Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String sell.crotroller.WechartController.authorize(java.lang.String)
+Mapped "{[/weixin/auth],methods=[GET]}" onto public void sell.crotroller.WexinController.auth(java.lang.String)
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Registering beans for JMX exposure on startup
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http)
+Started SellApplication in 11.943 seconds (JVM running for 21.38)
+Starting SellApplication on AFOIG-801172222 with PID 119884 (C:\Users\Administrator\Documents\sell\target\classes started by Administrator in C:\Users\Administrator\Documents\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@30c15d8b: startup date [Sun Dec 01 11:45:42 CST 2019]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Tomcat initialized with port(s): 8080 (http)
+Starting service Tomcat
+Starting Servlet Engine: Apache Tomcat/8.5.14
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 3243 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@30c15d8b: startup date [Sun Dec 01 11:45:42 CST 2019]; root of context hierarchy
+Mapped "{[/buyer/order/create],methods=[POST]}" onto public sell.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> sell.crotroller.BuyerOrderController.create(sell.form.OrderForm,org.springframework.validation.BindingResult)
+Mapped "{[/buyer/order/list],methods=[GET]}" onto public sell.VO.ResultVO<java.util.List<sell.dto.OrderDTO>> sell.crotroller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+Mapped "{[/buyer/order/detail],methods=[GET]}" onto public sell.VO.ResultVO<sell.dto.OrderDTO> sell.crotroller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+Mapped "{[/buyer/order/cancel],methods=[GET]}" onto public sell.VO.ResultVO<sell.dto.OrderDTO> sell.crotroller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public sell.VO.ResultVO sell.crotroller.BuyerProductController.list()
+Mapped "{[/wechat/userInfo],methods=[GET]}" onto public void sell.crotroller.WechartController.userInfo(java.lang.String,java.lang.String)
+Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String sell.crotroller.WechartController.authorize(java.lang.String)
+Mapped "{[/weixin/auth],methods=[GET]}" onto public void sell.crotroller.WexinController.auth(java.lang.String)
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Registering beans for JMX exposure on startup
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http)
+Started SellApplication in 8.495 seconds (JVM running for 10.6)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 31 ms
+进入auth方法
+code=1,0712zEb91yIALO1pVWd91wLMb912zEbQ
+{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: xfaFcEyFe-AEW2LA ]"}
+Starting SellApplication on AFOIG-801172222 with PID 121256 (C:\Users\Administrator\Documents\sell\target\classes started by Administrator in C:\Users\Administrator\Documents\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@30c15d8b: startup date [Sun Dec 01 11:48:21 CST 2019]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Tomcat initialized with port(s): 8080 (http)
+Starting service Tomcat
+Starting Servlet Engine: Apache Tomcat/8.5.14
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 3638 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@30c15d8b: startup date [Sun Dec 01 11:48:21 CST 2019]; root of context hierarchy
+Mapped "{[/buyer/order/create],methods=[POST]}" onto public sell.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> sell.crotroller.BuyerOrderController.create(sell.form.OrderForm,org.springframework.validation.BindingResult)
+Mapped "{[/buyer/order/list],methods=[GET]}" onto public sell.VO.ResultVO<java.util.List<sell.dto.OrderDTO>> sell.crotroller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+Mapped "{[/buyer/order/detail],methods=[GET]}" onto public sell.VO.ResultVO<sell.dto.OrderDTO> sell.crotroller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+Mapped "{[/buyer/order/cancel],methods=[GET]}" onto public sell.VO.ResultVO<sell.dto.OrderDTO> sell.crotroller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public sell.VO.ResultVO sell.crotroller.BuyerProductController.list()
+Mapped "{[/wechat/userInfo],methods=[GET]}" onto public void sell.crotroller.WechartController.userInfo(java.lang.String,java.lang.String)
+Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String sell.crotroller.WechartController.authorize(java.lang.String)
+Mapped "{[/weixin/auth],methods=[GET]}" onto public void sell.crotroller.WexinController.auth(java.lang.String)
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Registering beans for JMX exposure on startup
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http)
+Started SellApplication in 8.631 seconds (JVM running for 10.467)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 39 ms
+进入auth方法
+code=1
+{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: yfaFTY4ce-Lc9TmA ]"}
+进入auth方法
+code=1
+{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: yfaFZ44ce-yBxgKa ]"}
+进入auth方法
+code=1
+{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: YfaFGfyFe-l.Zopa ]"}
+进入auth方法
+code=1
+{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: YfaF97aLRa-h02fqa ]"}
+Starting SellApplication on AFOIG-801172222 with PID 126972 (C:\Users\Administrator\Documents\sell\target\classes started by Administrator in C:\Users\Administrator\Documents\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@f80945f: startup date [Sun Dec 01 11:56:23 CST 2019]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Tomcat initialized with port(s): 8080 (http)
+Starting service Tomcat
+Starting Servlet Engine: Apache Tomcat/8.5.14
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 8315 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@f80945f: startup date [Sun Dec 01 11:56:23 CST 2019]; root of context hierarchy
+Mapped "{[/buyer/order/create],methods=[POST]}" onto public sell.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> sell.crotroller.BuyerOrderController.create(sell.form.OrderForm,org.springframework.validation.BindingResult)
+Mapped "{[/buyer/order/list],methods=[GET]}" onto public sell.VO.ResultVO<java.util.List<sell.dto.OrderDTO>> sell.crotroller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+Mapped "{[/buyer/order/cancel],methods=[GET]}" onto public sell.VO.ResultVO<sell.dto.OrderDTO> sell.crotroller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+Mapped "{[/buyer/order/detail],methods=[GET]}" onto public sell.VO.ResultVO<sell.dto.OrderDTO> sell.crotroller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public sell.VO.ResultVO sell.crotroller.BuyerProductController.list()
+Mapped "{[/wechat/userInfo],methods=[GET]}" onto public void sell.crotroller.WechartController.userInfo(java.lang.String,java.lang.String)
+Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String sell.crotroller.WechartController.authorize(java.lang.String)
+Mapped "{[/weixin/auth],methods=[GET]}" onto public void sell.crotroller.WexinController.auth(java.lang.String)
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Registering beans for JMX exposure on startup
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http)
+Started SellApplication in 21.104 seconds (JVM running for 28.074)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 65 ms
+Starting SellApplication on AFOIG-801172222 with PID 129896 (C:\Users\Administrator\Documents\sell\target\classes started by Administrator in C:\Users\Administrator\Documents\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@ff684e1: startup date [Sun Dec 01 11:58:21 CST 2019]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Tomcat initialized with port(s): 8080 (http)
+Starting service Tomcat
+Starting Servlet Engine: Apache Tomcat/8.5.14
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 3855 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@ff684e1: startup date [Sun Dec 01 11:58:21 CST 2019]; root of context hierarchy
+Mapped "{[/buyer/order/create],methods=[POST]}" onto public sell.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> sell.crotroller.BuyerOrderController.create(sell.form.OrderForm,org.springframework.validation.BindingResult)
+Mapped "{[/buyer/order/list],methods=[GET]}" onto public sell.VO.ResultVO<java.util.List<sell.dto.OrderDTO>> sell.crotroller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+Mapped "{[/buyer/order/cancel],methods=[GET]}" onto public sell.VO.ResultVO<sell.dto.OrderDTO> sell.crotroller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+Mapped "{[/buyer/order/detail],methods=[GET]}" onto public sell.VO.ResultVO<sell.dto.OrderDTO> sell.crotroller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public sell.VO.ResultVO sell.crotroller.BuyerProductController.list()
+Mapped "{[/wechat/userInfo],methods=[GET]}" onto public void sell.crotroller.WechartController.userInfo(java.lang.String,java.lang.String)
+Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String sell.crotroller.WechartController.authorize(java.lang.String)
+Mapped "{[/weixin/auth],methods=[GET]}" onto public void sell.crotroller.WexinController.auth(java.lang.String)
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Registering beans for JMX exposure on startup
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http)
+Started SellApplication in 14.978 seconds (JVM running for 19.132)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 48 ms
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_base&state=http%3A%2F%2Fwww.imooc.com%2F#wechat_redirect
+Starting SellApplication on AFOIG-801172222 with PID 133436 (C:\Users\Administrator\Documents\sell\target\classes started by Administrator in C:\Users\Administrator\Documents\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@30c15d8b: startup date [Sun Dec 01 11:59:32 CST 2019]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Tomcat initialized with port(s): 8080 (http)
+Starting service Tomcat
+Starting Servlet Engine: Apache Tomcat/8.5.14
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 3199 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@30c15d8b: startup date [Sun Dec 01 11:59:32 CST 2019]; root of context hierarchy
+Mapped "{[/buyer/order/create],methods=[POST]}" onto public sell.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> sell.crotroller.BuyerOrderController.create(sell.form.OrderForm,org.springframework.validation.BindingResult)
+Mapped "{[/buyer/order/list],methods=[GET]}" onto public sell.VO.ResultVO<java.util.List<sell.dto.OrderDTO>> sell.crotroller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+Mapped "{[/buyer/order/detail],methods=[GET]}" onto public sell.VO.ResultVO<sell.dto.OrderDTO> sell.crotroller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+Mapped "{[/buyer/order/cancel],methods=[GET]}" onto public sell.VO.ResultVO<sell.dto.OrderDTO> sell.crotroller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public sell.VO.ResultVO sell.crotroller.BuyerProductController.list()
+Mapped "{[/wechat/userInfo],methods=[GET]}" onto public void sell.crotroller.WechartController.userInfo(java.lang.String,java.lang.String)
+Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String sell.crotroller.WechartController.authorize(java.lang.String)
+Mapped "{[/weixin/auth],methods=[GET]}" onto public void sell.crotroller.WexinController.auth(java.lang.String)
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Registering beans for JMX exposure on startup
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http)
+Started SellApplication in 9.051 seconds (JVM running for 11.212)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 42 ms
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_base&state=http%3A%2F%2Fwww.imooc.com%2F#wechat_redirect
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_base&state=http%3A%2F%2Fwww.imooc.com%2F#wechat_redirect
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_base&state=http%3A%2F%2Fwww.imooc.com%2F#wechat_redirect
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_base&state=http%3A%2F%2Fwww.imooc.com%2F#wechat_redirect
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_base&state=http%3A%2F%2Fwww.imooc.com#wechat_redirect
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_base&state=http%3A%2F%2Fwww.imooc.com#wechat_redirect
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_base&state=http%3A%2F%2Fwww.imooc.com#wechat_redirect
+Starting SellApplication on AFOIG-801172222 with PID 137620 (C:\Users\Administrator\Documents\sell\target\classes started by Administrator in C:\Users\Administrator\Documents\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@ff684e1: startup date [Sun Dec 01 12:02:29 CST 2019]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Tomcat initialized with port(s): 8080 (http)
+Starting service Tomcat
+Starting Servlet Engine: Apache Tomcat/8.5.14
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 4490 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@ff684e1: startup date [Sun Dec 01 12:02:29 CST 2019]; root of context hierarchy
+Mapped "{[/buyer/order/create],methods=[POST]}" onto public sell.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> sell.crotroller.BuyerOrderController.create(sell.form.OrderForm,org.springframework.validation.BindingResult)
+Mapped "{[/buyer/order/list],methods=[GET]}" onto public sell.VO.ResultVO<java.util.List<sell.dto.OrderDTO>> sell.crotroller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+Mapped "{[/buyer/order/cancel],methods=[GET]}" onto public sell.VO.ResultVO<sell.dto.OrderDTO> sell.crotroller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+Mapped "{[/buyer/order/detail],methods=[GET]}" onto public sell.VO.ResultVO<sell.dto.OrderDTO> sell.crotroller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public sell.VO.ResultVO sell.crotroller.BuyerProductController.list()
+Mapped "{[/wechat/userInfo],methods=[GET]}" onto public void sell.crotroller.WechartController.userInfo(java.lang.String,java.lang.String)
+Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String sell.crotroller.WechartController.authorize(java.lang.String)
+Mapped "{[/weixin/auth],methods=[GET]}" onto public void sell.crotroller.WexinController.auth(java.lang.String)
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Registering beans for JMX exposure on startup
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http)
+Started SellApplication in 13.921 seconds (JVM running for 16.407)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 78 ms
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_base&state=http%3A%2F%2Fwww.imooc.com#wechat_redirect
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_base&state=http%3A%2F%2Fwww.imooc.com#wechat_redirect
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_base&state=http%3A%2F%2Fwww.imooc.com#wechat_redirect
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_base&state=http%3A%2F%2Fwww.imooc.com#wechat_redirect
+Starting SellApplication on AFOIG-801172222 with PID 142212 (C:\Users\Administrator\Documents\sell\target\classes started by Administrator in C:\Users\Administrator\Documents\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@30c15d8b: startup date [Sun Dec 01 12:10:20 CST 2019]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Tomcat initialized with port(s): 8080 (http)
+Starting service Tomcat
+Starting Servlet Engine: Apache Tomcat/8.5.14
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 4183 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@30c15d8b: startup date [Sun Dec 01 12:10:20 CST 2019]; root of context hierarchy
+Mapped "{[/buyer/order/create],methods=[POST]}" onto public sell.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> sell.crotroller.BuyerOrderController.create(sell.form.OrderForm,org.springframework.validation.BindingResult)
+Mapped "{[/buyer/order/list],methods=[GET]}" onto public sell.VO.ResultVO<java.util.List<sell.dto.OrderDTO>> sell.crotroller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+Mapped "{[/buyer/order/detail],methods=[GET]}" onto public sell.VO.ResultVO<sell.dto.OrderDTO> sell.crotroller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+Mapped "{[/buyer/order/cancel],methods=[GET]}" onto public sell.VO.ResultVO<sell.dto.OrderDTO> sell.crotroller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public sell.VO.ResultVO sell.crotroller.BuyerProductController.list()
+Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String sell.crotroller.WechartController.userInfo(java.lang.String,java.lang.String)
+Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String sell.crotroller.WechartController.authorize(java.lang.String)
+Mapped "{[/weixin/auth],methods=[GET]}" onto public void sell.crotroller.WexinController.auth(java.lang.String)
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Registering beans for JMX exposure on startup
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http)
+Started SellApplication in 14.934 seconds (JVM running for 17.069)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 26 ms
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_base&state=http%3A%2F%2Fwww.imooc.com#wechat_redirect
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_base&state=http%3A%2F%2Fwww.imooc.com#wechat_redirect
+Starting SellApplication on AFOIG-801172222 with PID 143132 (C:\Users\Administrator\Documents\sell\target\classes started by Administrator in C:\Users\Administrator\Documents\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@550a1967: startup date [Sun Dec 01 12:11:01 CST 2019]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Tomcat initialized with port(s): 8080 (http)
+Starting service Tomcat
+Starting Servlet Engine: Apache Tomcat/8.5.14
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 3031 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@550a1967: startup date [Sun Dec 01 12:11:01 CST 2019]; root of context hierarchy
+Mapped "{[/buyer/order/create],methods=[POST]}" onto public sell.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> sell.crotroller.BuyerOrderController.create(sell.form.OrderForm,org.springframework.validation.BindingResult)
+Mapped "{[/buyer/order/list],methods=[GET]}" onto public sell.VO.ResultVO<java.util.List<sell.dto.OrderDTO>> sell.crotroller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+Mapped "{[/buyer/order/cancel],methods=[GET]}" onto public sell.VO.ResultVO<sell.dto.OrderDTO> sell.crotroller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+Mapped "{[/buyer/order/detail],methods=[GET]}" onto public sell.VO.ResultVO<sell.dto.OrderDTO> sell.crotroller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public sell.VO.ResultVO sell.crotroller.BuyerProductController.list()
+Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String sell.crotroller.WechartController.userInfo(java.lang.String,java.lang.String)
+Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String sell.crotroller.WechartController.authorize(java.lang.String)
+Mapped "{[/weixin/auth],methods=[GET]}" onto public void sell.crotroller.WexinController.auth(java.lang.String)
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Registering beans for JMX exposure on startup
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http)
+Started SellApplication in 11.305 seconds (JVM running for 14.675)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 41 ms
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_base&state=http%3A%2F%2Fwww.imooc.com#wechat_redirect
+Starting SellApplication on AFOIG-801172222 with PID 144248 (C:\Users\Administrator\Documents\sell\target\classes started by Administrator in C:\Users\Administrator\Documents\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@23aa363a: startup date [Sun Dec 01 12:11:43 CST 2019]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Tomcat initialized with port(s): 8080 (http)
+Starting service Tomcat
+Starting Servlet Engine: Apache Tomcat/8.5.14
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 4326 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@23aa363a: startup date [Sun Dec 01 12:11:43 CST 2019]; root of context hierarchy
+Mapped "{[/buyer/order/create],methods=[POST]}" onto public sell.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> sell.crotroller.BuyerOrderController.create(sell.form.OrderForm,org.springframework.validation.BindingResult)
+Mapped "{[/buyer/order/list],methods=[GET]}" onto public sell.VO.ResultVO<java.util.List<sell.dto.OrderDTO>> sell.crotroller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+Mapped "{[/buyer/order/cancel],methods=[GET]}" onto public sell.VO.ResultVO<sell.dto.OrderDTO> sell.crotroller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+Mapped "{[/buyer/order/detail],methods=[GET]}" onto public sell.VO.ResultVO<sell.dto.OrderDTO> sell.crotroller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public sell.VO.ResultVO sell.crotroller.BuyerProductController.list()
+Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String sell.crotroller.WechartController.userInfo(java.lang.String,java.lang.String)
+Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String sell.crotroller.WechartController.authorize(java.lang.String)
+Mapped "{[/weixin/auth],methods=[GET]}" onto public void sell.crotroller.WexinController.auth(java.lang.String)
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Registering beans for JMX exposure on startup
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http)
+Started SellApplication in 11.555 seconds (JVM running for 14.97)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 47 ms
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_base&state=http%3A%2F%2Fwww.imooc.com%2F#wechat_redirect
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_base&state=http%3A%2F%2Fwww.imooc.com#wechat_redirect
+Starting SellApplication on AFOIG-801172222 with PID 145244 (C:\Users\Administrator\Documents\sell\target\classes started by Administrator in C:\Users\Administrator\Documents\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@23aa363a: startup date [Sun Dec 01 12:12:32 CST 2019]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Tomcat initialized with port(s): 8080 (http)
+Starting service Tomcat
+Starting Servlet Engine: Apache Tomcat/8.5.14
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 3093 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@23aa363a: startup date [Sun Dec 01 12:12:32 CST 2019]; root of context hierarchy
+Mapped "{[/buyer/order/create],methods=[POST]}" onto public sell.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> sell.crotroller.BuyerOrderController.create(sell.form.OrderForm,org.springframework.validation.BindingResult)
+Mapped "{[/buyer/order/list],methods=[GET]}" onto public sell.VO.ResultVO<java.util.List<sell.dto.OrderDTO>> sell.crotroller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+Mapped "{[/buyer/order/cancel],methods=[GET]}" onto public sell.VO.ResultVO<sell.dto.OrderDTO> sell.crotroller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+Mapped "{[/buyer/order/detail],methods=[GET]}" onto public sell.VO.ResultVO<sell.dto.OrderDTO> sell.crotroller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public sell.VO.ResultVO sell.crotroller.BuyerProductController.list()
+Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String sell.crotroller.WechartController.userInfo(java.lang.String,java.lang.String)
+Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String sell.crotroller.WechartController.authorize(java.lang.String)
+Mapped "{[/weixin/auth],methods=[GET]}" onto public void sell.crotroller.WexinController.auth(java.lang.String)
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Registering beans for JMX exposure on startup
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http)
+Started SellApplication in 10.622 seconds (JVM running for 13.086)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 49 ms
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_base&state=http%3A%2F%2Fwww.imooc.com#wechat_redirect
+Starting SellApplication on AFOIG-801172222 with PID 146724 (C:\Users\Administrator\Documents\sell\target\classes started by Administrator in C:\Users\Administrator\Documents\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@23aa363a: startup date [Sun Dec 01 12:13:46 CST 2019]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Tomcat initialized with port(s): 8080 (http)
+Starting service Tomcat
+Starting Servlet Engine: Apache Tomcat/8.5.14
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 3722 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@23aa363a: startup date [Sun Dec 01 12:13:46 CST 2019]; root of context hierarchy
+Mapped "{[/buyer/order/create],methods=[POST]}" onto public sell.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> sell.crotroller.BuyerOrderController.create(sell.form.OrderForm,org.springframework.validation.BindingResult)
+Mapped "{[/buyer/order/list],methods=[GET]}" onto public sell.VO.ResultVO<java.util.List<sell.dto.OrderDTO>> sell.crotroller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+Mapped "{[/buyer/order/cancel],methods=[GET]}" onto public sell.VO.ResultVO<sell.dto.OrderDTO> sell.crotroller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+Mapped "{[/buyer/order/detail],methods=[GET]}" onto public sell.VO.ResultVO<sell.dto.OrderDTO> sell.crotroller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public sell.VO.ResultVO sell.crotroller.BuyerProductController.list()
+Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String sell.crotroller.WechartController.userInfo(java.lang.String,java.lang.String)
+Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String sell.crotroller.WechartController.authorize(java.lang.String)
+Mapped "{[/weixin/auth],methods=[GET]}" onto public void sell.crotroller.WexinController.auth(java.lang.String)
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Registering beans for JMX exposure on startup
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http)
+Started SellApplication in 11.585 seconds (JVM running for 14.533)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 52 ms
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fwww.imooc.com%2F#wechat_redirect
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fwww.imooc.com#wechat_redirect
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=www.imooc.com#wechat_redirect
+Starting SellApplication on AFOIG-801172222 with PID 149132 (C:\Users\Administrator\Documents\sell\target\classes started by Administrator in C:\Users\Administrator\Documents\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@30c15d8b: startup date [Sun Dec 01 12:16:51 CST 2019]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Tomcat initialized with port(s): 8080 (http)
+Starting service Tomcat
+Starting Servlet Engine: Apache Tomcat/8.5.14
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 4223 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@30c15d8b: startup date [Sun Dec 01 12:16:51 CST 2019]; root of context hierarchy
+Mapped "{[/buyer/order/create],methods=[POST]}" onto public sell.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> sell.crotroller.BuyerOrderController.create(sell.form.OrderForm,org.springframework.validation.BindingResult)
+Mapped "{[/buyer/order/list],methods=[GET]}" onto public sell.VO.ResultVO<java.util.List<sell.dto.OrderDTO>> sell.crotroller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+Mapped "{[/buyer/order/detail],methods=[GET]}" onto public sell.VO.ResultVO<sell.dto.OrderDTO> sell.crotroller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+Mapped "{[/buyer/order/cancel],methods=[GET]}" onto public sell.VO.ResultVO<sell.dto.OrderDTO> sell.crotroller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public sell.VO.ResultVO sell.crotroller.BuyerProductController.list()
+Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String sell.crotroller.WechartController.userInfo(java.lang.String,java.lang.String)
+Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String sell.crotroller.WechartController.authorize(java.lang.String)
+Mapped "{[/weixin/auth],methods=[GET]}" onto public void sell.crotroller.WexinController.auth(java.lang.String)
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Registering beans for JMX exposure on startup
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http)
+Started SellApplication in 9.181 seconds (JVM running for 11.485)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 26 ms
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=www.imooc.com#wechat_redirect
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=www.imooc.com#wechat_redirect
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fwww.imooc.com%2F#wechat_redirect
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=www.imooc.com#wechat_redirect
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=www.imooc.com#wechat_redirect
+Starting SellApplication on AFOIG-801172222 with PID 152588 (C:\Users\Administrator\Documents\sell\target\classes started by Administrator in C:\Users\Administrator\Documents\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5e0e82ae: startup date [Sun Dec 01 12:25:36 CST 2019]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Tomcat initialized with port(s): 8080 (http)
+Starting service Tomcat
+Starting Servlet Engine: Apache Tomcat/8.5.14
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 3049 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5e0e82ae: startup date [Sun Dec 01 12:25:36 CST 2019]; root of context hierarchy
+Mapped "{[/buyer/order/create],methods=[POST]}" onto public sell.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> sell.crotroller.BuyerOrderController.create(sell.form.OrderForm,org.springframework.validation.BindingResult)
+Mapped "{[/buyer/order/list],methods=[GET]}" onto public sell.VO.ResultVO<java.util.List<sell.dto.OrderDTO>> sell.crotroller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+Mapped "{[/buyer/order/detail],methods=[GET]}" onto public sell.VO.ResultVO<sell.dto.OrderDTO> sell.crotroller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+Mapped "{[/buyer/order/cancel],methods=[GET]}" onto public sell.VO.ResultVO<sell.dto.OrderDTO> sell.crotroller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public sell.VO.ResultVO sell.crotroller.BuyerProductController.list()
+Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String sell.crotroller.WechartController.userInfo(java.lang.String,java.lang.String)
+Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String sell.crotroller.WechartController.authorize(java.lang.String)
+Mapped "{[/weixin/auth],methods=[GET]}" onto public void sell.crotroller.WexinController.auth(java.lang.String)
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Registering beans for JMX exposure on startup
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http)
+Started SellApplication in 18.53 seconds (JVM running for 20.788)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 24 ms
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=www.imooc.com#wechat_redirect
+Starting SellApplication on AFOIG-801172222 with PID 153464 (C:\Users\Administrator\Documents\sell\target\classes started by Administrator in C:\Users\Administrator\Documents\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@30c15d8b: startup date [Sun Dec 01 12:26:35 CST 2019]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Tomcat initialized with port(s): 8080 (http)
+Starting service Tomcat
+Starting Servlet Engine: Apache Tomcat/8.5.14
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 4005 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@30c15d8b: startup date [Sun Dec 01 12:26:35 CST 2019]; root of context hierarchy
+Mapped "{[/buyer/order/create],methods=[POST]}" onto public sell.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> sell.crotroller.BuyerOrderController.create(sell.form.OrderForm,org.springframework.validation.BindingResult)
+Mapped "{[/buyer/order/list],methods=[GET]}" onto public sell.VO.ResultVO<java.util.List<sell.dto.OrderDTO>> sell.crotroller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+Mapped "{[/buyer/order/detail],methods=[GET]}" onto public sell.VO.ResultVO<sell.dto.OrderDTO> sell.crotroller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+Mapped "{[/buyer/order/cancel],methods=[GET]}" onto public sell.VO.ResultVO<sell.dto.OrderDTO> sell.crotroller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public sell.VO.ResultVO sell.crotroller.BuyerProductController.list()
+Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String sell.crotroller.WechartController.userInfo(java.lang.String,java.lang.String)
+Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String sell.crotroller.WechartController.authorize(java.lang.String)
+Mapped "{[/weixin/auth],methods=[GET]}" onto public void sell.crotroller.WexinController.auth(java.lang.String)
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Registering beans for JMX exposure on startup
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http)
+Started SellApplication in 9.18 seconds (JVM running for 11.307)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 28 ms
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=www.imooc.com#wechat_redirect
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=www.imooc.com#wechat_redirect
+Starting SellApplication on AFOIG-801172222 with PID 153836 (C:\Users\Administrator\Documents\sell\target\classes started by Administrator in C:\Users\Administrator\Documents\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@30c15d8b: startup date [Sun Dec 01 12:27:41 CST 2019]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Tomcat initialized with port(s): 8080 (http)
+Starting service Tomcat
+Starting Servlet Engine: Apache Tomcat/8.5.14
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 3014 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@30c15d8b: startup date [Sun Dec 01 12:27:41 CST 2019]; root of context hierarchy
+Mapped "{[/buyer/order/create],methods=[POST]}" onto public sell.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> sell.crotroller.BuyerOrderController.create(sell.form.OrderForm,org.springframework.validation.BindingResult)
+Mapped "{[/buyer/order/list],methods=[GET]}" onto public sell.VO.ResultVO<java.util.List<sell.dto.OrderDTO>> sell.crotroller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+Mapped "{[/buyer/order/cancel],methods=[GET]}" onto public sell.VO.ResultVO<sell.dto.OrderDTO> sell.crotroller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+Mapped "{[/buyer/order/detail],methods=[GET]}" onto public sell.VO.ResultVO<sell.dto.OrderDTO> sell.crotroller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public sell.VO.ResultVO sell.crotroller.BuyerProductController.list()
+Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String sell.crotroller.WechartController.userInfo(java.lang.String,java.lang.String)
+Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String sell.crotroller.WechartController.authorize(java.lang.String)
+Mapped "{[/weixin/auth],methods=[GET]}" onto public void sell.crotroller.WexinController.auth(java.lang.String)
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Registering beans for JMX exposure on startup
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http)
+Started SellApplication in 7.811 seconds (JVM running for 9.646)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 23 ms
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=www.imooc.com#wechat_redirect
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=www.imooc.com#wechat_redirect
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fwww.imooc.com%2F#wechat_redirect
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fwww.imooc.com%2F#wechat_redirect
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=www.imooc.com#wechat_redirect
+Starting SellApplication on AFOIG-801172222 with PID 156928 (C:\Users\Administrator\Documents\sell\target\classes started by Administrator in C:\Users\Administrator\Documents\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@23aa363a: startup date [Sun Dec 01 12:29:56 CST 2019]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Tomcat initialized with port(s): 8080 (http)
+Starting service Tomcat
+Starting Servlet Engine: Apache Tomcat/8.5.14
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 3760 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@23aa363a: startup date [Sun Dec 01 12:29:56 CST 2019]; root of context hierarchy
+Mapped "{[/buyer/order/create],methods=[POST]}" onto public sell.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> sell.crotroller.BuyerOrderController.create(sell.form.OrderForm,org.springframework.validation.BindingResult)
+Mapped "{[/buyer/order/list],methods=[GET]}" onto public sell.VO.ResultVO<java.util.List<sell.dto.OrderDTO>> sell.crotroller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+Mapped "{[/buyer/order/cancel],methods=[GET]}" onto public sell.VO.ResultVO<sell.dto.OrderDTO> sell.crotroller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+Mapped "{[/buyer/order/detail],methods=[GET]}" onto public sell.VO.ResultVO<sell.dto.OrderDTO> sell.crotroller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public sell.VO.ResultVO sell.crotroller.BuyerProductController.list()
+Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String sell.crotroller.WechartController.userInfo(java.lang.String,java.lang.String)
+Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String sell.crotroller.WechartController.authorize(java.lang.String)
+Mapped "{[/weixin/auth],methods=[GET]}" onto public void sell.crotroller.WexinController.auth(java.lang.String)
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Registering beans for JMX exposure on startup
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http)
+Started SellApplication in 11.754 seconds (JVM running for 13.948)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 42 ms
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fwww.imooc.com#wechat_redirect
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=www.imooc.com#wechat_redirect
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=www.imooc.com#wechat_redirect
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fwww.imooc.com#wechat_redirect
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fwww.imooc.com%2F#wechat_redirect
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=www.imooc.com#wechat_redirect
+Starting SellApplication on AFOIG-801172222 with PID 158256 (C:\Users\Administrator\Documents\sell\target\classes started by Administrator in C:\Users\Administrator\Documents\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@23aa363a: startup date [Sun Dec 01 12:32:07 CST 2019]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Tomcat initialized with port(s): 8080 (http)
+Starting service Tomcat
+Starting Servlet Engine: Apache Tomcat/8.5.14
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 3121 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@23aa363a: startup date [Sun Dec 01 12:32:07 CST 2019]; root of context hierarchy
+Mapped "{[/buyer/order/create],methods=[POST]}" onto public sell.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> sell.crotroller.BuyerOrderController.create(sell.form.OrderForm,org.springframework.validation.BindingResult)
+Mapped "{[/buyer/order/list],methods=[GET]}" onto public sell.VO.ResultVO<java.util.List<sell.dto.OrderDTO>> sell.crotroller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+Mapped "{[/buyer/order/cancel],methods=[GET]}" onto public sell.VO.ResultVO<sell.dto.OrderDTO> sell.crotroller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+Mapped "{[/buyer/order/detail],methods=[GET]}" onto public sell.VO.ResultVO<sell.dto.OrderDTO> sell.crotroller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public sell.VO.ResultVO sell.crotroller.BuyerProductController.list()
+Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String sell.crotroller.WechartController.userInfo(java.lang.String,java.lang.String)
+Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String sell.crotroller.WechartController.authorize(java.lang.String)
+Mapped "{[/weixin/auth],methods=[GET]}" onto public void sell.crotroller.WexinController.auth(java.lang.String)
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Registering beans for JMX exposure on startup
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http)
+Started SellApplication in 10.672 seconds (JVM running for 13.011)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 44 ms
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=www.imooc.com#wechat_redirect
+wxMpOAuth2AccessToken=WxMpOAuth2AccessToken{accessToken='null', expiresTime=-1, refreshToken='null', openId='null', scope='null', unionId='null'}
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fwww.imooc.com#wechat_redirect
+wxMpOAuth2AccessToken=WxMpOAuth2AccessToken{accessToken='null', expiresTime=-1, refreshToken='null', openId='null', scope='null', unionId='null'}
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=www.imooc.com#wechat_redirect
+wxMpOAuth2AccessToken=WxMpOAuth2AccessToken{accessToken='null', expiresTime=-1, refreshToken='null', openId='null', scope='null', unionId='null'}
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fwww.imooc.com#wechat_redirect
+wxMpOAuth2AccessToken=WxMpOAuth2AccessToken{accessToken='null', expiresTime=-1, refreshToken='null', openId='null', scope='null', unionId='null'}
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=www.imooc.com#wechat_redirect
+wxMpOAuth2AccessToken=WxMpOAuth2AccessToken{accessToken='null', expiresTime=-1, refreshToken='null', openId='null', scope='null', unionId='null'}
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=www.imooc.com#wechat_redirect
+wxMpOAuth2AccessToken=WxMpOAuth2AccessToken{accessToken='null', expiresTime=-1, refreshToken='null', openId='null', scope='null', unionId='null'}
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fwww.imooc.com#wechat_redirect
+wxMpOAuth2AccessToken=WxMpOAuth2AccessToken{accessToken='null', expiresTime=-1, refreshToken='null', openId='null', scope='null', unionId='null'}
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fwww.imooc.com#wechat_redirect
+wxMpOAuth2AccessToken=WxMpOAuth2AccessToken{accessToken='null', expiresTime=-1, refreshToken='null', openId='null', scope='null', unionId='null'}
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fwww.imooc.com%2F#wechat_redirect
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=www.imooc.com#wechat_redirect
+wxMpOAuth2AccessToken=WxMpOAuth2AccessToken{accessToken='null', expiresTime=-1, refreshToken='null', openId='null', scope='null', unionId='null'}
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fwww.baidu.com#wechat_redirect
+wxMpOAuth2AccessToken=WxMpOAuth2AccessToken{accessToken='null', expiresTime=-1, refreshToken='null', openId='null', scope='null', unionId='null'}
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fwww.baidu.com#wechat_redirect
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fwww.baidu.com#wechat_redirect
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fwww.baidu.com#wechat_redirect
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fwww.baidu.com#wechat_redirect
+wxMpOAuth2AccessToken=WxMpOAuth2AccessToken{accessToken='null', expiresTime=-1, refreshToken='null', openId='null', scope='null', unionId='null'}
+Starting SellApplication on AFOIG-801172222 with PID 54112 (C:\Users\Administrator\Documents\sell\target\classes started by Administrator in C:\Users\Administrator\Documents\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@23aa363a: startup date [Sun Dec 01 12:38:14 CST 2019]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Tomcat initialized with port(s): 8080 (http)
+Starting service Tomcat
+Starting Servlet Engine: Apache Tomcat/8.5.14
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 4000 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@23aa363a: startup date [Sun Dec 01 12:38:14 CST 2019]; root of context hierarchy
+Mapped "{[/buyer/order/create],methods=[POST]}" onto public sell.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> sell.crotroller.BuyerOrderController.create(sell.form.OrderForm,org.springframework.validation.BindingResult)
+Mapped "{[/buyer/order/list],methods=[GET]}" onto public sell.VO.ResultVO<java.util.List<sell.dto.OrderDTO>> sell.crotroller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+Mapped "{[/buyer/order/cancel],methods=[GET]}" onto public sell.VO.ResultVO<sell.dto.OrderDTO> sell.crotroller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+Mapped "{[/buyer/order/detail],methods=[GET]}" onto public sell.VO.ResultVO<sell.dto.OrderDTO> sell.crotroller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public sell.VO.ResultVO sell.crotroller.BuyerProductController.list()
+Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String sell.crotroller.WechartController.userInfo(java.lang.String,java.lang.String)
+Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String sell.crotroller.WechartController.authorize(java.lang.String)
+Mapped "{[/weixin/auth],methods=[GET]}" onto public void sell.crotroller.WexinController.auth(java.lang.String)
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Registering beans for JMX exposure on startup
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http)
+Started SellApplication in 11.989 seconds (JVM running for 14.429)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 90 ms
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_base&state=http%3A%2F%2Fwww.baidu.com#wechat_redirect
+wxMpOAuth2AccessToken=WxMpOAuth2AccessToken{accessToken='null', expiresTime=-1, refreshToken='null', openId='null', scope='null', unionId='null'}
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_base&state=http%3A%2F%2Fwww.baidu.com#wechat_redirect
+Starting SellApplication on AFOIG-801172222 with PID 155692 (C:\Users\Administrator\Documents\sell\target\classes started by Administrator in C:\Users\Administrator\Documents\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@30c15d8b: startup date [Sun Dec 01 12:39:09 CST 2019]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Tomcat initialized with port(s): 8080 (http)
+Starting service Tomcat
+Starting Servlet Engine: Apache Tomcat/8.5.14
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2809 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@30c15d8b: startup date [Sun Dec 01 12:39:09 CST 2019]; root of context hierarchy
+Mapped "{[/buyer/order/create],methods=[POST]}" onto public sell.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> sell.crotroller.BuyerOrderController.create(sell.form.OrderForm,org.springframework.validation.BindingResult)
+Mapped "{[/buyer/order/list],methods=[GET]}" onto public sell.VO.ResultVO<java.util.List<sell.dto.OrderDTO>> sell.crotroller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+Mapped "{[/buyer/order/detail],methods=[GET]}" onto public sell.VO.ResultVO<sell.dto.OrderDTO> sell.crotroller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+Mapped "{[/buyer/order/cancel],methods=[GET]}" onto public sell.VO.ResultVO<sell.dto.OrderDTO> sell.crotroller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public sell.VO.ResultVO sell.crotroller.BuyerProductController.list()
+Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String sell.crotroller.WechartController.userInfo(java.lang.String,java.lang.String)
+Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String sell.crotroller.WechartController.authorize(java.lang.String)
+Mapped "{[/weixin/auth],methods=[GET]}" onto public void sell.crotroller.WexinController.auth(java.lang.String)
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Registering beans for JMX exposure on startup
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http)
+Started SellApplication in 7.875 seconds (JVM running for 9.958)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 27 ms
+进入auth方法
+code=1,001HtVSw1Tx2pg0KCDWw1LhNSw1HtVSB
+{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: TFaFfDYIRa-1zXl7a ]"}
+进入auth方法
+code=1,081GnxHR1SlfB11sbIFR1MTvHR1GnxHC
+{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: TFaFmqLnRa-8jNNNa ]"}
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_base&state=http%3A%2F%2Fwww.imooc.com#wechat_redirect
+wxMpOAuth2AccessToken=WxMpOAuth2AccessToken{accessToken='null', expiresTime=-1, refreshToken='null', openId='null', scope='null', unionId='null'}
+进入auth方法
+code=1,061ctK9d2rCOdG0zeH9d2hlB9d2ctK9x
+{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: uFaFpz4ce-ldXU3 ]"}
+进入auth方法
+code=1,001r5VTt1HSaQe0l24Vt14a0Ut1r5VTN
+{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: uFaFcgyIRa-vuNHBA ]"}
+进入auth方法
+code=1,061VJvdj1WtOZt0469ej1pYQdj1VJvdN
+{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: UFaF5ZyFe-7nASpa ]"}
+进入auth方法
+code=1,071NnEVD10fPH40EjgVD1wrOVD1NnEV7
+{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: UFaFL8yFe-A3QqkA ]"}
+进入auth方法
+code=1,001SW3HG0wYJMc2ltSGG0ms9HG0SW3Hz
+{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: UFaFu7aLRa-w3fTWa ]"}
+进入auth方法
+code=1,081EBEP316oaEP15plQ31gbwP31EBEPG
+{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: vFaFFKXIRa-BChy4 ]"}
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_base&state=www.imooc.com#wechat_redirect
+wxMpOAuth2AccessToken=WxMpOAuth2AccessToken{accessToken='null', expiresTime=-1, refreshToken='null', openId='null', scope='null', unionId='null'}
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_base&state=http%3A%2F%2Fwww.baidu.com#wechat_redirect
+wxMpOAuth2AccessToken=WxMpOAuth2AccessToken{accessToken='null', expiresTime=-1, refreshToken='null', openId='null', scope='null', unionId='null'}
+进入auth方法
+code=1,001pnShZ15J5aU0KyMhZ10VUhZ1pnShI
+{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: wFaF36yFe-R1mDea ]"}
+进入auth方法
+code=1,001p9sk21VAB0R1SHvl21NCtk21p9skC
+{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: WFaFr6yFe-VyiNKa ]"}
+进入auth方法
+code=1,0111zPrF0BiROd2eF4sF0EyxrF01zPrE
+{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: WFaFszyFe-2Svbta ]"}
+进入auth方法
+code=1,061EmEfa1gOSyN1caofa1DzVfa1EmEfz
+{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: WFaFSEyFe- ]"}
+进入auth方法
+code=1,001F0lT21d5spQ1igxU21vepT21F0lTl
+{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: xFaFn6yFe-NS.Kra ]"}
+进入auth方法
+code=1,071QXZNr0HnN2h1eh8Lr0xIWNr0QXZNd
+{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: xFaFzQaLRa-Wowj6a ]"}
+进入auth方法
+code=1,011iNPed262ghG0oo3cd2zAZed2iNPeL
+{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: XFaFB5yFe-C4Uo3 ]"}
+进入auth方法
+code=1,011sOvhe2LQy3F0rLiie2Lgwhe2sOvhF
+{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: XFaFfDYIRa-V7RguA ]"}
+进入auth方法
+code=1,011F42gQ1WEP031KK9gQ1aW0gQ1F42gq
+{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: XFaFA6yFe-Sb1ZFa ]"}
+进入auth方法
+code=1,061NuXnT1Y9dq41SggrT12sLnT1NuXnq
+{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: XFaFIfyFe-FBdQgA ]"}
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_base&state=www.imooc.com#wechat_redirect
+wxMpOAuth2AccessToken=WxMpOAuth2AccessToken{accessToken='null', expiresTime=-1, refreshToken='null', openId='null', scope='null', unionId='null'}
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_base&state=http%3A%2F%2Fwww.baidu.com#wechat_redirect
+wxMpOAuth2AccessToken=WxMpOAuth2AccessToken{accessToken='null', expiresTime=-1, refreshToken='null', openId='null', scope='null', unionId='null'}
+Starting SellApplication on AFOIG-801172222 with PID 134972 (C:\Users\Administrator\Documents\sell\target\classes started by Administrator in C:\Users\Administrator\Documents\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@30c15d8b: startup date [Sun Dec 01 12:48:48 CST 2019]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Tomcat initialized with port(s): 8080 (http)
+Starting service Tomcat
+Starting Servlet Engine: Apache Tomcat/8.5.14
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2716 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@30c15d8b: startup date [Sun Dec 01 12:48:48 CST 2019]; root of context hierarchy
+Mapped "{[/buyer/order/create],methods=[POST]}" onto public sell.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> sell.crotroller.BuyerOrderController.create(sell.form.OrderForm,org.springframework.validation.BindingResult)
+Mapped "{[/buyer/order/list],methods=[GET]}" onto public sell.VO.ResultVO<java.util.List<sell.dto.OrderDTO>> sell.crotroller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+Mapped "{[/buyer/order/cancel],methods=[GET]}" onto public sell.VO.ResultVO<sell.dto.OrderDTO> sell.crotroller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+Mapped "{[/buyer/order/detail],methods=[GET]}" onto public sell.VO.ResultVO<sell.dto.OrderDTO> sell.crotroller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public sell.VO.ResultVO sell.crotroller.BuyerProductController.list()
+Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String sell.crotroller.WechartController.userInfo(java.lang.String,java.lang.String)
+Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String sell.crotroller.WechartController.authorize(java.lang.String)
+Mapped "{[/weixin/auth],methods=[GET]}" onto public void sell.crotroller.WexinController.auth(java.lang.String)
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Registering beans for JMX exposure on startup
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http)
+Started SellApplication in 7.526 seconds (JVM running for 9.192)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 26 ms
+进入auth方法
+code=1,061jgfqd0vNHRz19s8sd0moyqd0jgfqD
+{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: yFaFy6yFe-HsHGqA ]"}
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=www.imooc.com#wechat_redirect
+wxMpOAuth2AccessToken=WxMpOAuth2AccessToken{accessToken='null', expiresTime=-1, refreshToken='null', openId='null', scope='null', unionId='null'}
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fwww.baidu.com#wechat_redirect
+wxMpOAuth2AccessToken=WxMpOAuth2AccessToken{accessToken='null', expiresTime=-1, refreshToken='null', openId='null', scope='null', unionId='null'}
+Starting SellApplication on AFOIG-801172222 with PID 114632 (C:\Users\Administrator\Documents\sell\target\classes started by Administrator in C:\Users\Administrator\Documents\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@14cd1699: startup date [Sun Dec 01 12:53:52 CST 2019]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Tomcat initialized with port(s): 8080 (http)
+Starting service Tomcat
+Starting Servlet Engine: Apache Tomcat/8.5.14
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2937 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@14cd1699: startup date [Sun Dec 01 12:53:52 CST 2019]; root of context hierarchy
+Mapped "{[/buyer/order/create],methods=[POST]}" onto public sell.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> sell.crotroller.BuyerOrderController.create(sell.form.OrderForm,org.springframework.validation.BindingResult)
+Mapped "{[/buyer/order/list],methods=[GET]}" onto public sell.VO.ResultVO<java.util.List<sell.dto.OrderDTO>> sell.crotroller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+Mapped "{[/buyer/order/cancel],methods=[GET]}" onto public sell.VO.ResultVO<sell.dto.OrderDTO> sell.crotroller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+Mapped "{[/buyer/order/detail],methods=[GET]}" onto public sell.VO.ResultVO<sell.dto.OrderDTO> sell.crotroller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public sell.VO.ResultVO sell.crotroller.BuyerProductController.list()
+Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String sell.crotroller.WechartController.userInfo(java.lang.String,java.lang.String)
+Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String sell.crotroller.WechartController.authorize(java.lang.String)
+Mapped "{[/weixin/auth],methods=[GET]}" onto public void sell.crotroller.WexinController.auth(java.lang.String)
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Registering beans for JMX exposure on startup
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http)
+Started SellApplication in 8.063 seconds (JVM running for 9.677)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 30 ms
+进入auth方法
+code=1,0111fCM52JGa8S0Ug2N52guFM521fCMP
+{"errcode":40029,"errmsg":"invalid code, hints: [ req_id: 1FaFDbwgE-TMqJ9a ]"}
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fwww.baidu.com#wechat_redirect
+wxMpOAuth2AccessToken=WxMpOAuth2AccessToken{accessToken='null', expiresTime=-1, refreshToken='null', openId='null', scope='null', unionId='null'}
+Starting SellApplication on AFOIG-801172222 with PID 115552 (C:\Users\Administrator\Documents\sell\target\classes started by Administrator in C:\Users\Administrator\Documents\sell)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@14cd1699: startup date [Sun Dec 01 12:54:28 CST 2019]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+Tomcat initialized with port(s): 8080 (http)
+Starting service Tomcat
+Starting Servlet Engine: Apache Tomcat/8.5.14
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 3187 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@14cd1699: startup date [Sun Dec 01 12:54:28 CST 2019]; root of context hierarchy
+Mapped "{[/buyer/order/create],methods=[POST]}" onto public sell.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> sell.crotroller.BuyerOrderController.create(sell.form.OrderForm,org.springframework.validation.BindingResult)
+Mapped "{[/buyer/order/list],methods=[GET]}" onto public sell.VO.ResultVO<java.util.List<sell.dto.OrderDTO>> sell.crotroller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+Mapped "{[/buyer/order/detail],methods=[GET]}" onto public sell.VO.ResultVO<sell.dto.OrderDTO> sell.crotroller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+Mapped "{[/buyer/order/cancel],methods=[GET]}" onto public sell.VO.ResultVO<sell.dto.OrderDTO> sell.crotroller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public sell.VO.ResultVO sell.crotroller.BuyerProductController.list()
+Mapped "{[/wechat/userInfo],methods=[GET]}" onto public java.lang.String sell.crotroller.WechartController.userInfo(java.lang.String,java.lang.String)
+Mapped "{[/wechat/authorize],methods=[GET]}" onto public java.lang.String sell.crotroller.WechartController.authorize(java.lang.String)
+Mapped "{[/weixin/auth],methods=[GET]}" onto public void sell.crotroller.WexinController.auth(java.lang.String)
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Registering beans for JMX exposure on startup
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http)
+Started SellApplication in 8.179 seconds (JVM running for 10.339)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 33 ms
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fwww.baidu.com#wechat_redirect
+[微信网页授权]获取code,result=https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxebe3efd8fb84c22c&redirect_uri=http%3A%2F%2Fyier.natapp1.cc%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fwww.baidu.com#wechat_redirect

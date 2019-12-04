@@ -1,7 +1,6 @@
 package sell.config;
 
 import lombok.Data;
-import org.aspectj.lang.annotation.DeclareAnnotation;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
@@ -9,7 +8,6 @@ import org.springframework.stereotype.Component;
 @Component
 @ConfigurationProperties(prefix = "wechat")
 public class WechatAccountConfig {
-    private String mpAppId;
-
-    private  String mpAppSecret;
+    public String mpAppId;
+    public   String mpAppSecret;
 }
