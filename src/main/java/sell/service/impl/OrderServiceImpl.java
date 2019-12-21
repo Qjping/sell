@@ -13,6 +13,7 @@ import sell.exception.SellException;
 import sell.repositor.OrderDetailRepository;
 import sell.repositor.OrderMasterRepository;
 import sell.service.OrderService;
+import sell.service.PayService;
 import sell.service.ProductService;
 import sell.util.KeyUtil;
 import lombok.extern.slf4j.Slf4j;
@@ -34,6 +35,8 @@ import java.util.stream.Collectors;
 @Slf4j
 public class OrderServiceImpl implements OrderService {
 
+    @Autowired
+    private PayService payService;
     @Autowired
     private ProductService productService;
 
@@ -148,7 +151,7 @@ public class OrderServiceImpl implements OrderService {
         productService.increaseStock(cartDTOList);
         //退款
         if(orderDTO.getPayStatus().equals(PayStatusEnum.SUCCESS.getCode())){
-            //TODO
+            payService.refund(orderDTO);
         }
 
 

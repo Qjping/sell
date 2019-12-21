@@ -20,8 +20,11 @@ public enum ResultEnum {
     ORDER_OWNER_ERROR(19,"该订单不属于ciyonghu"),
 
 
-    WECHAT_MP_ERROR(43000,"授权信息获取失败")
-    ;
+    WECHAT_MP_ERROR(43000,"授权信息获取失败"),
+    WECHAT_NOTIFY_MONEY_VERIFE_ERROR(43000,"授权信息获取失败")
+
+
+            ;
 
 
 
