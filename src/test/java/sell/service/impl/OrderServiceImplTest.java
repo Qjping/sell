@@ -1,5 +1,7 @@
 package sell.service.impl;
 
+import org.springframework.data.domain.PageImpl;
+import org.springframework.data.domain.Pageable;
 import sell.dataobject.OrderDetail;
 import sell.dataobject.OrderMaster;
 import sell.dto.OrderDTO;
@@ -96,5 +98,11 @@ public class OrderServiceImplTest {
         OrderDTO result=orderService.paid(orderDTO);
         Assert.assertEquals(PayStatusEnum.SUCCESS.getCode(),result.getPayStatus());
 
+    }
+
+    @Test
+    public void list(){
+        PageRequest request = new PageRequest(0,2);
+        orderService.findList(request);
     }
 }

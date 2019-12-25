@@ -1,9 +1,10 @@
 package sell.enmu;
 
 import lombok.Getter;
+import org.aopalliance.reflect.Code;
 
 @Getter
-public enum ResultEnum {
+public enum ResultEnum implements CodeEnum {
         PARAM_ERROR(1,"参数不正确"),
 
     PRODUCT_NOT_EXIST(10,"商品不存在"),
