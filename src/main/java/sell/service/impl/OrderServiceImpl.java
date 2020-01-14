@@ -88,7 +88,6 @@ public class OrderServiceImpl implements OrderService {
                 new CartDTO(e.getProductId(),e.getProductQuantity())
         ).collect(Collectors.toList());
 
-        //4. 扣库存
 
 
         productService.decreaseStock(cartDTOList);

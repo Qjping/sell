@@ -10,6 +10,7 @@ import java.util.Date;
 @Entity
 @DynamicUpdate
 @Data
+
 public class ProductCategory {
 
     /** 类目id. */
@@ -23,7 +24,7 @@ public class ProductCategory {
     /** 类目编号. */
     private Integer categoryType;
 
-    private Date createTime;
+    private Date createTime ;
 
     private Date updateTime;
 

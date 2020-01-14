@@ -3,7 +3,10 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
     password: 123456
-    url: jdbc:mysql://192.168.1.103/sell?characterEncoding=utf-8&useSSL=false
+    url: jdbc:mysql://192.168.1.106/sell?characterEncoding=utf-8&useSSL=false
+  redis:
+    host: 192.168.1.106
+    port: 6379
 
   jpa:
     show-sql: true
@@ -33,6 +36,11 @@ wechat:
     orderStatus: e-Cqq67QxD6YNI41iRiqawEYdFavW_7pc7LyEMb-yeQ
 
     com.imooc.LoggerTest:  debug
+
+ProjectUrl:
+  wechatOpenAuthorize: http://yier.natapp1.cc
+  wechatMpAuthorize: http://yier.natapp1.cc
+  sell: http://127.0.0.1:8080
 
 
 

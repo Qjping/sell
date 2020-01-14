@@ -78,7 +78,7 @@ public class BuyerOrderController {
     @GetMapping("/detail")
     public  ResultVO<OrderDTO> detail(@RequestParam("openid")String openid,
                                       @RequestParam("orderId")String orderId){
-        //TODI 不安全的
+        //TO不安全的
 
 
         return ResultVOUtil.success(buyerService.findOrderOne(openid,orderId));
