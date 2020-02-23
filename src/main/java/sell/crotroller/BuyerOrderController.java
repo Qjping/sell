@@ -8,6 +8,7 @@ import sell.exception.SellException;
 import sell.form.OrderForm;
 import sell.service.BuyerService;
 import sell.service.OrderService;
+import sell.service.impl.PushMessageServiceImpl;
 import sell.util.ResultVOUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -34,6 +35,9 @@ public class BuyerOrderController {
 
     @Autowired
     private BuyerService buyerService;
+
+    @Autowired
+    PushMessageServiceImpl pushMessageService;
     //创建订单
     @PostMapping("/create")
     public ResultVO<Map<String,String>>create(@Valid OrderForm orderForm,
@@ -53,6 +57,8 @@ public class BuyerOrderController {
 
         Map<String,String>map=new HashMap<>();
         map.put("orderId",createResult.getOrderId());
+//
+//        pushMessageService.orderStatus(orderDTO);
 
         return ResultVOUtil.success(map);
     }
