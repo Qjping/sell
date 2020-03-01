@@ -47,8 +47,7 @@ public class OrderServiceImpl implements OrderService {
     @Autowired
     private OrderMasterRepository orderMasterRepository;
 
-    @Autowired
-    WebSocket webSocket;
+
 
     @Override
     @Transactional
@@ -95,7 +94,7 @@ public class OrderServiceImpl implements OrderService {
 
 
         productService.decreaseStock(cartDTOList);
-        webSocket.sendMessage(orderDTO.getOrderId());
+
         return orderDTO;
     }
 

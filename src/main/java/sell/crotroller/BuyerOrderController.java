@@ -8,6 +8,7 @@ import sell.exception.SellException;
 import sell.form.OrderForm;
 import sell.service.BuyerService;
 import sell.service.OrderService;
+import sell.service.WebSocket;
 import sell.service.impl.PushMessageServiceImpl;
 import sell.util.ResultVOUtil;
 import lombok.extern.slf4j.Slf4j;
@@ -38,7 +39,10 @@ public class BuyerOrderController {
 
     @Autowired
     PushMessageServiceImpl pushMessageService;
-    //创建订单
+
+    @Autowired
+    WebSocket webSocket;
+        //创建订单
     @PostMapping("/create")
     public ResultVO<Map<String,String>>create(@Valid OrderForm orderForm,
                                               BindingResult bindingResult){
@@ -59,7 +63,7 @@ public class BuyerOrderController {
         map.put("orderId",createResult.getOrderId());
 //
 //        pushMessageService.orderStatus(orderDTO);
-
+        webSocket.sendMessage(orderDTO.getOrderId());
         return ResultVOUtil.success(map);
     }
 

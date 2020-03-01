@@ -1,7 +1,10 @@
 package sell.exception;
 
+import lombok.Getter;
+import org.springframework.beans.factory.annotation.Autowired;
+import sell.dataobject.mapper.ProductCategoryMapper;
 import sell.enmu.ResultEnum;
-
+@Getter
 public class SellException extends  RuntimeException {
     private Integer code;
 
