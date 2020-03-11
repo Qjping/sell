@@ -40,7 +40,8 @@ public class ProductcategoryMapperTest extends SellApplicationTests {
 
     @Test
     public void select(){
-        ProductCategory productCategory = productCategoryMapper.findByCategoryType(4);
+//        ProductCategory productCategory = productCategoryMapper.findByCategoryType(4);
+        ProductCategory productCategory = productCategoryMapper.selectByCategoryType(4);
         Assert.assertNotNull(productCategory);
     }
 }

@@ -1,9 +1,6 @@
 package sell.dataobject.mapper;
 
-import org.apache.ibatis.annotations.Insert;
-import org.apache.ibatis.annotations.Result;
-import org.apache.ibatis.annotations.Results;
-import org.apache.ibatis.annotations.Select;
+import org.apache.ibatis.annotations.*;
 import sell.dataobject.ProductCategory;
 
 import java.util.Map;
@@ -22,5 +19,13 @@ public interface ProductCategoryMapper {
             @Result(column = "category_type", property = "categoryType")}
     )
     ProductCategory findByCategoryType (Integer categoryType);
+
+    @Update("update product_category set category_name = #{categoryName} where category_type = #{categoryType}")
+    int updateByObject(ProductCategory productCategory);
+
+    @Delete("delete from product_category where category_type = #{categoryType}")
+    int deleteByCategoryType(Integer categoryType);
+
+    ProductCategory selectByCategoryType(Integer categoryType);
 
 }
