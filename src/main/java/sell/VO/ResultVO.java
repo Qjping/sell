@@ -2,9 +2,12 @@ package sell.VO;
 
 import lombok.Data;
 
-@Data
-public class ResultVO<T> {
+import java.io.Serializable;
 
+@Data
+public class ResultVO<T> implements Serializable {
+
+    private static final long serialVersionUID = 6655718735568549330L;
     /**错误码
      */
     private  Integer code;
